@@ -1,5 +1,5 @@
 function mincost(arr){ 
-	arr.sort();
+	arr.sort((a,b) => a-b);
 	let cost = 0;
 	let i = 0;
 	while(arr.length > 1){
